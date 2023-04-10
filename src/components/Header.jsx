@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="navbar bg-base-100 container mx-auto">
+      <div className="navbar bg-base-100 custom-container mx-auto custom-bg">
         <div className="navbar-start">
           <div className="dropdown">
             <label

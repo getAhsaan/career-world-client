@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Hero from "./Hero";
+import JobCategory from "./JobCategory";
+import FeaturedJobs from "./FeaturedJobs";
 
 const Home = () => {
-    return (
-        <div className="container mx-auto">
-            Home
-        </div>
-    );
+  return (
+    <div className="container mx-auto">
+      <Hero />
+      <JobCategory />
+      <FeaturedJobs />
+    </div>
+  );
 };
 
 export default Home;
