@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-custom {
+  @apply btn btn-xs md:btn-md capitalize text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none;
+}
