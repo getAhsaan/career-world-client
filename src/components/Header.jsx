@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <>
-      <div className="navbar bg-base-100 custom-container mx-auto custom-bg">
+    <div className="custom-bg">
+      <div className="navbar custom-container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label
@@ -73,7 +73,7 @@ const Header = () => {
           </NavLink>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

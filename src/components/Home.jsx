@@ -5,7 +5,7 @@ import FeaturedJobs from "./FeaturedJobs";
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
+    <div>
       <Hero />
       <JobCategory />
       <FeaturedJobs />

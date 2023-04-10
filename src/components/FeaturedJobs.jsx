@@ -1,11 +1,31 @@
-import React from 'react';
+import React from "react";
+import { useLoaderData } from "react-router-dom";
+import Feature from "./Feature";
 
 const FeaturedJobs = () => {
-    return (
-        <div className="container mx-auto">
-            Featured Jobs  
-        </div>
-    );
+  const { featuredJobsData } = useLoaderData();
+  return (
+    <div className=" mt-10 custom-container mx-auto ">
+      <h1 className="text-3xl md:text-4xl font-bold text-center my-2">
+        Featured Jobs
+      </h1>
+      <p className="text-center text-gray-400">
+        Explore thousands of job opportunities with all the information you
+        need. Its your future
+      </p>
+      <div className="grid md:grid-cols-2 justify-center gap-4 mt-10">
+        {featuredJobsData.map((feature) => (
+          <Feature
+            key={feature.id}
+            feature={feature}
+          />
+        ))}
+      </div>
+      <div className="text-center">
+        <button className="btn btn-custom mt-8">See All Jobs</button>
+      </div>
+    </div>
+  );
 };
 
 export default FeaturedJobs;

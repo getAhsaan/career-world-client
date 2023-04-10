@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full custom-bg">
+   <div className="custom-bg">
+     <div className="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
       <div className="max-w-xl mx-auto lg:max-w-screen-xl">
         <div className="mb-16 lg:max-w-lg lg:mb-0">
           <div className="max-w-xl mb-6">
@@ -32,6 +33,7 @@ const Hero = () => {
         />
       </div>
     </div>
+   </div>
   );
 };
 
