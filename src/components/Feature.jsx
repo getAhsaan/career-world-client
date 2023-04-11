@@ -7,10 +7,11 @@ const Feature = ({ feature }) => {
     <div className="mx-auto border rounded-lg p-6 xl:w-[600px] xl:h-[320px] lg:w-[450px] lg:h-[320px] w-[300px] h-[320px]">
       <img
         src={feature.icon}
-        className="w-[116px] h-[40px]"
+        className="w-[116px] h-[40px] my-2"
         alt="feature-icon"
       />
-      <h2 className="text-md md:text-xl font-bold my-4">{feature.title}</h2>
+      <h2 className="text-md md:text-xl font-bold">{feature.title}</h2>
+      <p className="mb-4 text-gray-600">{feature.company_name}</p>
       <div className="text-xs">
         {feature.job_type.map((jobType, index) => (
           <span

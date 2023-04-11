@@ -7,17 +7,15 @@
     "job_type": ["Remote", "Full Time"],
     "location": "Dhaka, Bangladesh",
     "salary": "100k - 150k",
-    "view_details": {
-      "job_description": "We are seeking a skilled Software Developer to join our team and participate in the development of our cutting-edge software products. The successful candidate will have experience with multiple programming languages and will be comfortable working in a collaborative environment.",
-      "job_responsibilities": "Design, develop, and maintain software applications and systems. Collaborate with cross-functional teams to identify and solve complex software problems",
-      "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or related field",
-      "experience": "3+ years of experience in software engineering"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 666-5555",
-      "email": "example6@example.com",
-      "address": "123 Main St, Wasington, USA"
-    }
+
+    "job_description": "We are seeking a skilled Software Developer to join our team and participate in the development of our cutting-edge software products. The successful candidate will have experience with multiple programming languages and will be comfortable working in a collaborative environment.",
+    "job_responsibilities": "Design, develop, and maintain software applications and systems. Collaborate with cross-functional teams to identify and solve complex software problems",
+    "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or related field",
+    "experience": "3+ years of experience in software engineering",
+
+    "phone": "+1 (555) 666-5555",
+    "email": "example6@example.com",
+    "address": "123 Main St, Wasington, USA"
   },
   {
     "id": 1,
@@ -27,17 +25,15 @@
     "job_type": ["Onsite", "Part Time"],
     "location": "Delhi, India",
     "salary": "120k - 180k",
-    "view_details": {
-      "job_description": "We are seeking an experienced Sales Manager to lead our sales team and drive revenue growth. The successful candidate will have a proven track record in sales and business development.",
-      "job_responsibilities": "Develop and execute sales strategies to meet or exceed revenue targets. Build and maintain relationships with key customers and partners.",
-      "educational_requirements": "Bachelor's degree in Business Administration, Sales, or related field",
-      "experience": "5+ years of experience in sales or business development"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 555-5555",
-      "email": "example5@example.com",
-      "address": "123 Main St, Anytown, London"
-    }
+
+    "job_description": "We are seeking an experienced Sales Manager to lead our sales team and drive revenue growth. The successful candidate will have a proven track record in sales and business development.",
+    "job_responsibilities": "Develop and execute sales strategies to meet or exceed revenue targets. Build and maintain relationships with key customers and partners.",
+    "educational_requirements": "Bachelor's degree in Business Administration, Sales, or related field",
+    "experience": "5+ years of experience in sales or business development",
+
+    "phone": "+1 (555) 555-5555",
+    "email": "example5@example.com",
+    "address": "123 Main St, Anytown, London"
   },
   {
     "id": 2,
@@ -47,17 +43,15 @@
     "job_type": ["Onsite", "Full Time"],
     "location": "Dubai, UAE",
     "salary": "160k - 250k",
-    "view_details": {
-      "job_description": "We are seeking a creative and detail-oriented Marketing Coordinator to support our marketing team. The successful candidate will assist with the development and execution of marketing campaigns across multiple channels.",
-      "job_responsibilities": "Assist with the development and execution of marketing campaigns across multiple channels. Create and edit marketing materials, including copywriting, design, and layout.",
-      "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field",
-      "experience": "2+ years of experience in marketing or communications"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 444-5555",
-      "email": "example4@example.com",
-      "address": "123 Main St, Anytown, Kuet"
-    }
+
+    "job_description": "We are seeking a creative and detail-oriented Marketing Coordinator to support our marketing team. The successful candidate will assist with the development and execution of marketing campaigns across multiple channels.",
+    "job_responsibilities": "Assist with the development and execution of marketing campaigns across multiple channels. Create and edit marketing materials, including copywriting, design, and layout.",
+    "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field",
+    "experience": "2+ years of experience in marketing or communications",
+
+    "phone": "+1 (555) 444-5555",
+    "email": "example4@example.com",
+    "address": "123 Main St, Anytown, Kuet"
   },
   {
     "id": 3,
@@ -67,17 +61,15 @@
     "job_type": ["Remote", "Part Time"],
     "location": "Islamabad, Pakistan",
     "salary": "100k - 120k",
-    "view_details": {
-      "job_description": "We are seeking an experienced Human Resources Manager to lead our HR team and develop and implement HR policies and programs. The successful candidate will have a deep understanding of HR best practices and employment law.",
-      "job_responsibilities": "Develop and implement HR policies and programs to support the company's goals and objectives. Oversee employee relations, recruitment, and training and development programs.",
-      "educational_requirements": "Bachelor's degree in Human Resources, Business Administration, or related field",
-      "experience": "7+ years of experience in HR, with 3+ years in a managerial role"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 333-5555",
-      "email": "example3@example.com",
-      "address": "123 Main St, Anytown, Bangladesh"
-    }
+
+    "job_description": "We are seeking an experienced Human Resources Manager to lead our HR team and develop and implement HR policies and programs. The successful candidate will have a deep understanding of HR best practices and employment law.",
+    "job_responsibilities": "Develop and implement HR policies and programs to support the company's goals and objectives. Oversee employee relations, recruitment, and training and development programs.",
+    "educational_requirements": "Bachelor's degree in Human Resources, Business Administration, or related field",
+    "experience": "7+ years of experience in HR, with 3+ years in a managerial role",
+
+    "phone": "+1 (555) 333-5555",
+    "email": "example3@example.com",
+    "address": "123 Main St, Anytown, Bangladesh"
   },
   {
     "id": 4,
@@ -87,17 +79,15 @@
     "job_type": ["Remote", "Full Time"],
     "location": "Dhaka, Bangladesh",
     "salary": "100k - 150k",
-    "view_details": {
-      "job_description": "We are seeking a talented Graphic Designer to join our creative team. The successful candidate will have experience designing and producing visual content for print and digital media.",
-      "job_responsibilities": "Design and produce visual content for print and digital media. Collaborate with cross-functional teams to develop creative solutions that meet the needs of our clients.",
-      "educational_requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field",
-      "experience": "3+ years of experience in graphic design"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 222-5555",
-      "email": "example2@example.com",
-      "address": "123 Main St, Anytown, Pakistan"
-    }
+
+    "job_description": "We are seeking a talented Graphic Designer to join our creative team. The successful candidate will have experience designing and producing visual content for print and digital media.",
+    "job_responsibilities": "Design and produce visual content for print and digital media. Collaborate with cross-functional teams to develop creative solutions that meet the needs of our clients.",
+    "educational_requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field",
+    "experience": "3+ years of experience in graphic design",
+
+    "phone": "+1 (555) 222-5555",
+    "email": "example2@example.com",
+    "address": "123 Main St, Anytown, Pakistan"
   },
   {
     "id": 5,
@@ -107,16 +97,14 @@
     "job_type": ["Onsite", "Full Time"],
     "location": "Delhi, India",
     "salary": "120k - 180k",
-    "view_details": {
-      "job_description": "We are seeking an experienced Financial Analyst to join our finance team. The successful candidate will have a deep understanding of financial analysis and reporting.",
-      "job_responsibilities": "Conduct financial analysis and reporting to support business decision-making. Develop and maintain financial models and forecasts.",
-      "educational_requirements": "Bachelor's degree in Finance, Accounting, or related field",
-      "experience": "5+ years of experience in financial analysis or related field"
-    },
-    "contact_information": {
-      "phone": "+1 (555) 111-5555",
-      "email": "example1@example.com",
-      "address": "123 Main St, Anytown, India"
-    }
+
+    "job_description": "We are seeking an experienced Financial Analyst to join our finance team. The successful candidate will have a deep understanding of financial analysis and reporting.",
+    "job_responsibilities": "Conduct financial analysis and reporting to support business decision-making. Develop and maintain financial models and forecasts.",
+    "educational_requirements": "Bachelor's degree in Finance, Accounting, or related field",
+    "experience": "5+ years of experience in financial analysis or related field",
+
+    "phone": "+1 (555) 111-5555",
+    "email": "example1@example.com",
+    "address": "123 Main St, Anytown, India"
   }
 ]
