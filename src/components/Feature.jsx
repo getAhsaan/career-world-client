@@ -31,7 +31,7 @@ const Feature = ({ feature }) => {
           Salary : {feature.salary}
         </div>
       </div>
-      <Link to="/job-details">
+      <Link to={`/job-details/${feature.id}`}>
         <button className="btn btn-custom-view mt-2">View Details</button>
       </Link>
     </div>

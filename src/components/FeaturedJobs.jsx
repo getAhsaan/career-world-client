@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Feature from "./Feature";
 
 const FeaturedJobs = () => {
   const { featuredJobsData } = useLoaderData();
+  const [allJobsData, setAllJobsData] = useState([]);
+  const handleSeeAllJobs = () => {
+    setAllJobsData(featuredJobsData);
+  };
   return (
     <div className=" mt-10 custom-container mx-auto ">
       <h1 className="text-3xl md:text-4xl font-bold text-center my-2">
@@ -14,15 +18,27 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid md:grid-cols-2 justify-center gap-4 mt-10">
-        {featuredJobsData.slice(0, 4).map((feature) => (
-          <Feature
-            key={feature.id}
-            feature={feature}
-          />
-        ))}
+        {allJobsData.length > 0
+          ? allJobsData.map((feature) => (
+              <Feature
+                key={feature.id}
+                feature={feature}
+              />
+            ))
+          : featuredJobsData.slice(0, 4).map((feature) => (
+              <Feature
+                key={feature.id}
+                feature={feature}
+              />
+            ))}
       </div>
       <div className="text-center">
-        <button className="btn btn-custom mt-8">See All Jobs</button>
+        <button
+          className="btn btn-custom mt-8"
+          onClick={handleSeeAllJobs}
+        >
+          See All Jobs
+        </button>
       </div>
     </div>
   );
