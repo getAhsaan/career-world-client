@@ -1,5 +1,6 @@
 import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
   return (
@@ -30,7 +31,9 @@ const Feature = ({ feature }) => {
           Salary : {feature.salary}
         </div>
       </div>
-      <button className="btn btn-custom-view mt-2">View Details</button>
+      <Link to="/job-details">
+        <button className="btn btn-custom-view mt-2">View Details</button>
+      </Link>
     </div>
   );
 };
