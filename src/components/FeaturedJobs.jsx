@@ -14,7 +14,7 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid md:grid-cols-2 justify-center gap-4 mt-10">
-        {featuredJobsData.map((feature) => (
+        {featuredJobsData.slice(0, 4).map((feature) => (
           <Feature
             key={feature.id}
             feature={feature}

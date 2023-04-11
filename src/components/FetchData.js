@@ -3,6 +3,5 @@ export const jobCategoryData = async () => {
   const jobCategoryData = await res1.json();
   const res2 = await fetch("featuredJobsData.json");
   const featuredJobsData = await res2.json();
-  console.log(jobCategoryData);
   return { jobCategoryData, featuredJobsData };
 };
