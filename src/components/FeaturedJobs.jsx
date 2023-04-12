@@ -32,7 +32,11 @@ const FeaturedJobs = () => {
               />
             ))}
       </div>
-      <div className="text-center">
+      <div
+        className={`text-center ${
+          featuredJobsData.length === allJobsData.length && "hidden"
+        }`}
+      >
         <button
           className="btn btn-custom mt-8"
           onClick={handleSeeAllJobs}
