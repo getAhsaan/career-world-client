@@ -39,6 +39,10 @@ const data = [
     name: "A7",
     Marks: 60,
   },
+  {
+    name: "A8",
+    Marks: 60,
+  },
 ];
 
 export default function Statistics() {
